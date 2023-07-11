@@ -30,5 +30,5 @@ def has_hand(frame, thresh, model):
             return mediapipe.mediapipe_model(frame)
 
 
-frame = 'fileobjects/photos/man1.jpg'
+frame = 'fileobjects/photos/man2.jpg'
 print(has_hand(frame, 0.8, 'yolo'))
